@@ -27,6 +27,3 @@ if st.button("Analyze Sentiment"):
             st.error("❌ Negative Sentiment 😠")
         else:
             st.info("➡️ Neutral Sentiment 😐")
-
-        # Show score
-        st.write(f"Confidence Score: {round(score, 2)}")
